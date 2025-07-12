@@ -9,9 +9,9 @@ SmartCafe Assistant is a beginner-friendly chatbot that runs in the terminal. It
 
 This project uses **Object-Oriented Programming (OOP)** and a **JSON file** as its knowledge base. No internet or AI tools are used — just pure Python logic!
 
----
 
-📁 Project Structure (Files):
+
+ Project Structure (Files):
 
 1. `research_agent.py` – Handles all café data:
    - Loads data from `cafe_data.json`
@@ -29,25 +29,24 @@ This project uses **Object-Oriented Programming (OOP)** and a **JSON file** as i
 
 4. `cafe_data.json` – The café’s menu and hours (required for the program to work)
 
----
+
 
 🔍 How Regex is Used:
 Regex helps the chatbot understand natural language. It searches for patterns in user input, such as:
 
-- **Ingredients request**:  
+- Ingredients request:  
   `what's in a Mocha?` → matches  
   `r"what'?s in (a |an )?(?P<item>[\w\s]+)"`
 
-- **Calories**:  
+- Calories:  
   `how many calories in Hot Chocolate?`
 
-- **Opening hours**:  
+- Opening hours:  
   `when are you open on Friday?`
 
-- **Available drinks**:  
+- Available drinks:  
   `what drinks do you have?`
 
----
 
 🧪 Sample Questions to Try:
 
@@ -57,19 +56,19 @@ Regex helps the chatbot understand natural language. It searches for patterns in
 - When are you open on Monday?
 - Exit (to quit)
 
----
+
 
 ✅ Notes:
 - The `cafe_data.json` file must be in the same folder as the `.py` files.
 - The code is written in simple, easy-to-read style with comments.
 - The chatbot keeps running until the user types `exit` or `quit`.
 
----
+
 
 🎬 Team Video Tips (if submitting):
 - Each team member can explain one part: a class, method, or regex.
 - Try to keep the explanation under 2 minutes.
 - Bonus: Show a short demo with sample questions in the terminal!
 
-(Optional: Add screenshots below if needed for submission.)
+
 
